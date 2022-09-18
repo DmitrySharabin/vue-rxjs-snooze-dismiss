@@ -54,4 +54,8 @@ output {
 button + button {
   margin-inline-start: 0.5em;
 }
+
+button:disabled {
+  cursor: not-allowed;
+}
 </style>
